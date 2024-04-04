@@ -1,0 +1,91 @@
+body {
+    font-family: "Lucida Console";
+    background-color: #fff;
+  }
+  .title {
+    /*フォント*/
+    font-family: 'Georgia';
+    font-weight: 800;
+    color: #262626;
+    font-size: 50px;
+
+    float: left;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: auto;
+    width: auto;
+
+    outline: solid;
+    border-radius: 30px;
+
+
+    text-align: center;
+    text-shadow: 0 2px 5px rgba(219, 219, 219, 0.45);
+    max-width: 100%;
+    justify-content: center;
+  }
+  .Ing {
+    height: 50px;
+    width: 50px;
+    float: right;
+    padding: 15px 15px;
+  }
+
+  .button {
+    height: 75px;
+    width: 75px;
+    /*ココからコードで位置をそろえる*/
+    display: inline-flex;
+    justify-content: center; /* 水平方向中央揃え */
+    align-items: center; /* 垂直方向中央揃え */
+    
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+
+    object-fit: cover;
+    background: #fff;
+    border-radius: 20px;
+    border: none;
+
+    /*影*/
+    box-shadow: 0 10px 10px 0 #0000005f;
+  }
+  .button:active {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+
+    /*影*/
+    box-shadow: 0 10px 10px 0 #0000005f;
+  }
+
+  .text {                     /*テキストボックス*/
+    width: 80%;               /* 幅指定 */
+    margin:  0 auto;            /* 中央寄せ */
+  }
+
+  .textBox {
+    width: 100%;
+    height: 1000px;
+    resize: none;
+    color: #000000;
+    font-size: 50px;
+    font-family: Courier;
+    background-color: #e7d8c9;
+    outline:none;
+    border: none;
+    border-radius: 20px;
+
+    padding: 12px;
+
+    /*影*/
+    box-shadow: 0 20px 25px 0 #0000005f;
+  }
+  
+  .strikethrough {
+    text-decoration: line-through;
+  }
